@@ -3,3 +3,4 @@ sentence.split(" ").collect do |word|
   word.reverse
 sentence.join(" ")
 end
+end
