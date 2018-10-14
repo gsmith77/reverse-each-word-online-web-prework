@@ -2,5 +2,6 @@ def reverse_each_word(sentence)
   sentence.split
   return sentence
   sentence.each { |word| word.(&:reverse!)}
-  return sentence
+end
+reverse_each_word(sentence)
 end
