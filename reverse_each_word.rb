@@ -6,3 +6,4 @@ sentence.split(" ").each do |word|
   array << sentence
 end
 array.join(" ")
+end
